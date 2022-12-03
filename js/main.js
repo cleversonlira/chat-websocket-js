@@ -1,4 +1,4 @@
-const websocket = new WebSocket("ws://192.168.1.67:8080/teste");
+const websocket = new WebSocket("ws://192.168.1.67:8080/chat");
 
 // O manipulador de eventos “onopen” é chamado quando uma nova conexão é iniciada.
 websocket.onopen = function() {
